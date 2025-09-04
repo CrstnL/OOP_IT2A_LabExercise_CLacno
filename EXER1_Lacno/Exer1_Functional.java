@@ -1,4 +1,3 @@
-
 public class Exer1_Functional {
     public static void main(String[] args) {
         //Double the numbers in an array and sum them
@@ -13,5 +12,6 @@ public class Exer1_Functional {
         System.out.println("Sum of doubled numbers: " + sum);
     }
 }
+
 
 
