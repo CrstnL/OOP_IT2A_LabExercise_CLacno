@@ -1,14 +1,16 @@
-public Class Exer3_Imperative {
+public class Exer3_Imperative {
     public static void main(String[] args)  {
 
-        int sum = 20;
+        int sum = 0;
 
-        for(int i = 1; i <= sum; i++) {
-            if(i % 2 == sum) {
+        for(int i = 1; i <= 20; i++) {
+            if(i % 2 == 0) {
                 sum += i;
 
-                System.out.println("The sum of all even numbers: " + sum);
+
             }
         }
+        
+        System.out.println("Sum of even number is " + sum);
     }
 }
