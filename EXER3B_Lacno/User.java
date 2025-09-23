@@ -17,7 +17,6 @@ public class User {
         System.out.println("Welcome " + name + "! This is the default home page.");
     }
 
-    // Getters and Setters
     public String getName() {
         return name;
     }
@@ -42,3 +41,4 @@ public class User {
         this.password = password;
     }
 }
+
