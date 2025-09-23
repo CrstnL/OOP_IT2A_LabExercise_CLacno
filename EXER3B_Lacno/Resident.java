@@ -1,11 +1,6 @@
 class Resident extends User {
     public Resident(String name, String username, String password) {
-        super(name, username, password);
-    }
-
-    @Override
-    public void showHome() {
-        System.out.println("Welcome Resident " + getName() + "! You can register, submit complaints, and react to announcements.");
+        super(name, username, password); // Call parent constructor
     }
 
     public void register() {
@@ -14,7 +9,7 @@ class Resident extends User {
 
     public String submitComplaint(String description) {
         System.out.println(getName() + " submitted a complaint: " + description);
-        return description; // return so Admin can update it
+        return description;
     }
 
     public void reactToAnnouncement(String announcement, String reaction) {
