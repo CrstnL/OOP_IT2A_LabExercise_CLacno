@@ -1,6 +1,6 @@
 class Admin extends User {
     public Admin(String name, String username, String password) {
-        super(name, username, password); // Call parent constructor
+        super(name, username, password);
     }
 
     public void makeAnnouncement(String content) {
@@ -11,3 +11,4 @@ class Admin extends User {
         System.out.println("Admin " + getName() + " updated complaint '" + complaint + "' to status: " + newStatus);
     }
 }
+
