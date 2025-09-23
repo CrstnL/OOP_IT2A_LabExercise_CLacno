@@ -1,11 +1,6 @@
 class Admin extends User {
     public Admin(String name, String username, String password) {
-        super(name, username, password);
-    }
-
-    @Override
-    public void showHome() {
-        System.out.println("Welcome Admin " + getName() + "! You can manage complaints and announcements.");
+        super(name, username, password); // Call parent constructor
     }
 
     public void makeAnnouncement(String content) {
