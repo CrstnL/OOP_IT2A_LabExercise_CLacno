@@ -1,6 +1,6 @@
 class Resident extends User {
     public Resident(String name, String username, String password) {
-        super(name, username, password); // Call parent constructor
+        super(name, username, password);
     }
 
     public void register() {
@@ -16,3 +16,4 @@ class Resident extends User {
         System.out.println(getName() + " reacted to announcement '" + announcement + "': " + reaction);
     }
 }
+
