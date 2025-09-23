@@ -17,7 +17,7 @@ public class User {
         System.out.println("Welcome " + name + "! This is the default home page.");
     }
 
-    // Getters and Setters for private fields
+    // Getters and Setters
     public String getName() {
         return name;
     }
